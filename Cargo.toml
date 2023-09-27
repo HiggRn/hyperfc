@@ -1,0 +1,15 @@
+[package]
+name = "hyperfc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+llvm-sys = "170.0.0"
+itertools = "0.11"
+tempfile = "3.8"
+clap = { version = "4.4", features = ["cargo", "string", "wrap_help"] }
+ariadne = "0.3"
+
+[dev-dependencies]
+quickcheck = "1.0"
+pretty_assertions = "1.3.0"
